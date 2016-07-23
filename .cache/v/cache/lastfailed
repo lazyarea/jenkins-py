@@ -1,0 +1,21 @@
+{
+  "lib/python3.4/site-packages/wheel/test/test_basic.py::test_compatibility_tags": true,
+  "lib/python3.4/site-packages/wheel/test/test_basic.py::test_convert_egg": true,
+  "lib/python3.4/site-packages/wheel/test/test_basic.py::test_egg_re": true,
+  "lib/python3.4/site-packages/wheel/test/test_basic.py::test_findable": true,
+  "lib/python3.4/site-packages/wheel/test/test_basic.py::test_no_scripts": true,
+  "lib/python3.4/site-packages/wheel/test/test_basic.py::test_pick_best": true,
+  "lib/python3.4/site-packages/wheel/test/test_basic.py::test_pydist": true,
+  "lib/python3.4/site-packages/wheel/test/test_basic.py::test_unpack": true,
+  "lib/python3.4/site-packages/wheel/test/test_basic.py::test_util": true,
+  "lib/python3.4/site-packages/wheel/test/test_tagopt.py::test_default_tag": true,
+  "lib/python3.4/site-packages/wheel/test/test_tagopt.py::test_explicit_tag": true,
+  "lib/python3.4/site-packages/wheel/test/test_tagopt.py::test_legacy_wheel_section_in_setup_cfg": true,
+  "lib/python3.4/site-packages/wheel/test/test_tagopt.py::test_plat_name_purepy": true,
+  "lib/python3.4/site-packages/wheel/test/test_tagopt.py::test_plat_name_purepy_in_setupcfg": true,
+  "lib/python3.4/site-packages/wheel/test/test_tagopt.py::test_pythontag_in_setup_cfg": true,
+  "lib/python3.4/site-packages/wheel/test/test_tagopt.py::test_universal_beats_explicit_tag": true,
+  "lib/python3.4/site-packages/wheel/test/test_tagopt.py::test_universal_in_setup_cfg": true,
+  "lib/python3.4/site-packages/wheel/test/test_tagopt.py::test_universal_tag": true,
+  "lib/python3.4/site-packages/wheel/test/test_tool.py::test_keygen": true
+}
