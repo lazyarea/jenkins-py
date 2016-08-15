@@ -1,13 +1,14 @@
 # jenkins-py
 
- yum install gcc zlib-devel bzip2 bzip2-devel readline readline-devel sqlite sqlite-devel openssl openssl-devel git
- git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+  yum install gcc zlib-devel bzip2 bzip2-devel readline readline-devel sqlite sqlite-devel openssl openssl-devel git
 
- pyenv install 3.4.1
- pyenv global 3.4.1
- pyenv rehash
- pyenv version
+  git clone https://github.com/yyuu/pyenv.git ~/.pyenv
 
- django-admin startproject mysite
- cd mysite
- ../bin/python manage.py runserver
+  pyenv install 3.4.1
+  pyenv global 3.4.1
+  pyenv rehash
+  pyenv version
+
+  django-admin startproject mysite
+  cd mysite
+  ../bin/python manage.py runserver
