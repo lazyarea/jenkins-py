@@ -1,5 +1,6 @@
 # -*- conding:utf8 -*-
 import os
+import re
 import time
 import unittest
 import urllib3
@@ -31,12 +32,9 @@ class TestSimple(unittest.TestCase):
         except:
             print("timeout")
 
-
-
-        #html = elem.page_source
-        #bs_src = bs4(html)
-
-        # print(html)
+        html = self.browser.page_source
+        soup = BeautifulSoup(html, "html.parser")
+        print( soup.find_all( 'input', class_="JsChK") )
         self.assertEqual(1,1)
 
 if __name__ == "__main__":
