@@ -7,7 +7,7 @@ class SimpleTest(unittest.TestCase):
 
     def test1(self):
 
-        url = 'http://preview.tis.web-meister.jp/wmpreview/www.tis.jp/casestudy/?k=selKey2,selKey9'
+        url = 'http://someurl'
         crawl = Crawler.Crawler()
         crawl.main(url)
 
