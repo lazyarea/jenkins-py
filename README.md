@@ -11,3 +11,5 @@
     django-admin startproject mysite
     cd mysite
     ../bin/python manage.py runserver
+
+    pip install -r requirement.txt
