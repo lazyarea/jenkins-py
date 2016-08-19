@@ -34,7 +34,12 @@ class TestSimple(unittest.TestCase):
 
         html = self.browser.page_source
         soup = BeautifulSoup(html, "html.parser")
-        print( soup.find_all( 'input', class_="JsChK") )
+        kwd = []
+        gyo = []
+        kwd = soup.find_all('label', attrs={"for": re.compile("^selKey") })
+        for i in kwd :
+           print(i)
+
         self.assertEqual(1,1)
 
 if __name__ == "__main__":
