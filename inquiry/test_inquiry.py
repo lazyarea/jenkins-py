@@ -10,11 +10,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
-class TestSimple(unittest.TestCase):
+class TestInquiry(unittest.TestCase):
 
     def setUp(self):
         self.wait = 10 # seconds
-        self.url = 'http://preview.tis.web-meister.jp/wmpreview/www.tis.jp/casestudy/'
+        self.url = 'http://192.168.11.102:18002/login'
         self.browser = webdriver.Chrome(os.getcwd() + '/lib/chromedriver')
         # self.browser.manage().timeouts().implicitlyWait(self.wait, TimeUnit.SECONDS);
         pass
@@ -27,18 +27,17 @@ class TestSimple(unittest.TestCase):
         self.browser.implicitly_wait( self.wait ) # seconds
         self.browser.get( self.url )
         try:
-            elem = self.browser.find_element_by_id("selKey1")
+#            elem = self.browser.find_element_by_name("password")
             print ("OK, page loaded")
         except:
             print("timeout")
 
+        self.browser.find_element_by_name('login_id').send_keys('xyz')
+        self.browser.find_element_by_name('password').send_keys('xyz')
+        self.browser.find_element_by_xpath('/html/body/div[1]/div/div/div/div/div[2]/form/div[3]/div/button').click()
+
         html = self.browser.page_source
         soup = BeautifulSoup(html, "html.parser")
-        kwd = []
-        gyo = []
-        kwd = soup.find_all('label', attrs={"for": re.compile("^selKey") })
-        for i in kwd :
-           print(i)
 
         self.assertEqual(1,1)
 
