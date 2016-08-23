@@ -1,0 +1,4 @@
+Cobertura Plugin
+Pipeline
+Python Plugin	
+pyenv plugin
