@@ -19,7 +19,8 @@ class TestSimple(unittest.TestCase):
         self.wait = 10 # seconds
 #        self.url = 'http://preview.tis.web-meister.jp/wmpreview/www.tis.jp/casestudy/'
 #        self.url = baseurl + 'special/?&b=selKey1&sumCnt=10000'
-        self.url = baseurl + 'casestudy/?&b=selBiz3&sumCnt=10000'
+#        self.url = baseurl + 'casestudy/?&b=selBiz3&sumCnt=10000'
+        self.url = baseurl + '?k=selKey1&b=selBiz1&s=selType2&sumCnt=1000'
         self.browser = webdriver.Chrome(os.getcwd() + '/lib/chromedriver')
 #        self.browser.manage().timeouts().implicitlyWait(self.wait, TimeUnit.SECONDS);
         pass
@@ -42,8 +43,8 @@ class TestSimple(unittest.TestCase):
         kwd = []
         gyo = []
 #        kwd = soup.find_all('label', attrs={"for": re.compile("^selKey") })
-        kwd = soup.find_all('span')
-#        kwd = soup.find_all('h2')
+#        kwd = soup.find_all('span')
+        kwd = soup.find_all('h2')
         for i in kwd :
            print(i)
 
