@@ -1,4 +1,5 @@
 # -*- conding:utf8 -*-
+import re
 
 def divide(num1, num2):
   """josan"""
@@ -13,6 +14,13 @@ def login(driver, url, email, passwd, wait=5):
     driver.find_element_by_xpath('//*[@id="persistent"]').click()
     driver.find_element_by_xpath('//*[@id=".save"]').click()
 
+def check_logged_in(soup, tag, value):
+    text = soup.select('#pbhello > span')
+    m = re.search(value, str(text))
+    if m:
+        return 1
+    else:
+        return -1
 
 def logout(driver, wait=5):
-    driver.find_element_by_link_text("ログアウト").click()
+    driver.find_element_by_xpath('//*[@id="pbidinfo"]/li[1]/a').click()

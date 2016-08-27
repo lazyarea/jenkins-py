@@ -26,15 +26,17 @@ class SimpleTest(unittest.TestCase):
         passwd  = "wilkinson"
         login.login(self.driver, self.url, email, passwd)
         time.sleep(5)
-        login.logout(self.driver)
-        time.sleep(3)
 
         html = self.driver.page_source
         soup = BeautifulSoup(html, "html.parser")
         title = soup.find_all('title')
-        print(title)
+#        print(title)
+        self.assertEqual(login.check_logged_in(soup, 'h3', 'sudo_0826'), 1)
+        time.sleep(1)
 
+        login.logout(self.driver)
         self.assertEqual(login.divide(2,2),1)
+        time.sleep(1)
 
 #    def test2(self):
 #        utils.load_json_from_file('json_sample.json')
