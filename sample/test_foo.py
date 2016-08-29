@@ -18,7 +18,10 @@ class SimpleTest(unittest.TestCase):
         self.driver = webdriver.Chrome('../lib/chromedriver')
         # self.driver.manage().timeouts().implicitlyWait(self.wait,
         # TimeUnit.SECONDS);
-        pass
+
+
+    def tearDown(self):
+        self.driver.quit()
 
 
     def test_login_out(self):
