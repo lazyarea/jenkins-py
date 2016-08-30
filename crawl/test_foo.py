@@ -2,6 +2,7 @@
 import os
 import re
 import unittest
+import utils
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -15,33 +16,35 @@ class SimpleTest(unittest.TestCase):
         self.wait = 10 # seconds
         self.url = baseurl
         self.driver = webdriver.Chrome('../lib/chromedriver')
+        self.dir = './saved/'
+        self.new_fle_ext = '.txt'
 
     def tearDown(self):
         self.driver.quit()
 
 
     def test_login_out(self):
-        email   = "sudo_0826"
-        passwd  = "wilkinson"
-        login.login(self.driver, self.url, email, passwd)
-        time.sleep(5)
+        csv = utils.load_csv('url.csv')
+        for url in csv:
+            u = url.split('//')
 
-        html = self.driver.page_source
-        soup = BeautifulSoup(html, "html.parser")
-        title = soup.find_all('title')
-        self.assertEqual(login.check_logged_in(soup, 'h3', 'sudo_0826'), 1)
-        time.sleep(1)
+            self.driver.get( url )
 
-        list = soup.find_all( re.compile('script') )
-        f = open('workfile', 'w')
-        for i in list:
-            f.write( str(i) )
+            html = self.driver.page_source
+            soup = BeautifulSoup(html, "html.parser")
+            title = soup.find_all('title')
+            time.sleep(1)
 
-        f.close()
+            list = soup.find_all( re.compile('script') )
 
-        login.logout(self.driver)
-        self.assertEqual(login.divide(2,2),1)
-        time.sleep(1)
+            new_file = self.dir + re.sub(r'/', '_', u[1]) + self.new_fle_ext
+            f = open(new_file, 'w')
+            for i in list:
+                f.write( str(i) )
+            f.close()
+
+            self.assertEqual(1,1)
+            time.sleep(1)
 
 
 
