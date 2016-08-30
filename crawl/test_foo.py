@@ -40,7 +40,8 @@ class SimpleTest(unittest.TestCase):
             new_file = self.dir + re.sub(r'/', '_', u[1]) + self.new_fle_ext
             f = open(new_file, 'w')
             for i in list:
-                f.write( str(i) )
+                f.write( "\n-------------------------------------" )
+                f.write( "\n" + str(i) )
             f.close()
 
             self.assertEqual(1,1)
