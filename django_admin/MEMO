@@ -60,4 +60,16 @@ $ python manage.py startapp cms
 [Start test]
 ./manage.py test
 
+[Add cms to Settings]
+$ vim django_proj/settings.py
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'cms',
+]
 
