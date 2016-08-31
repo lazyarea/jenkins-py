@@ -1,0 +1,63 @@
+[Create project]
+$ django-admin startproject django_admin
+$ cd django_admin
+
+[sqlite3]
+$ python manage.py migrate
+.
+├── djang_proj
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-35.pyc
+│   │   ├── settings.cpython-35.pyc
+│   │   └── urls.cpython-35.pyc
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── db.sqlite3
+└── manage.py
+
+$ python manage.py createsuperuser
+Email address:
+Password:
+Password (again):
+Superuser created successfully.
+
+[Run Light Weight Server]
+$ python manage.py runserver
+System check identified no issues (0 silenced).
+August 31, 2016 - 19:58:31
+Django version 1.9.7, using settings 'djang_proj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+[Create App]
+$ python manage.py startapp cms
+.
+├── MEMO
+├── cms
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── db.sqlite3
+├── django_proj
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-35.pyc
+│   │   ├── settings.cpython-35.pyc
+│   │   ├── urls.cpython-35.pyc
+│   │   └── wsgi.cpython-35.pyc
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── manage.py
+
+[Start test]
+./manage.py test
+
+
