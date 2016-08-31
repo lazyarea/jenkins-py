@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 class SimpleTest(unittest.TestCase):
     def setUp(self):
-        baseurl = 'http://yahoo.co.jp'
+        baseurl = 'http://192.168.11.102:18002/?site_id=&status=&sort=9'
         self.wait = 10 # seconds
         self.url = baseurl
         self.driver = webdriver.Chrome('../lib/chromedriver')
@@ -24,30 +24,8 @@ class SimpleTest(unittest.TestCase):
 
 
     def test_login_out(self):
-        csv = utils.load_csv('url.csv')
-        for url in csv:
-            u = url.split('//')
-
-            self.driver.get( url )
-
-            html = self.driver.page_source
-            soup = BeautifulSoup(html, "html.parser")
-            title = soup.find_all('title')
-            time.sleep(1)
-
-            list = soup.find_all( re.compile('script') )
-
-            new_file = self.dir + re.sub(r'/', '_', u[1]) + self.new_fle_ext
-            f = open(new_file, 'w')
-            for i in list:
-                f.write( "\n-------------------------------------" )
-                f.write( "\n" + str(i) )
-            f.close()
-
-            self.assertEqual(1,1)
-            time.sleep(1)
-
-
+        self.driver.get( self.url )
+        self.driver.send_keys()
 
 if __name__ == "__main__":
   unittest.main()
