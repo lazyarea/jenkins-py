@@ -11,3 +11,6 @@ def take_shot(driver, name='', dir='screenshots/', ext='.png'):
     path = dir + name + ext
     driver.save_screenshot(path)
 
+def wait():
+     wait = WebDriverWait(driver, 3)
+     wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".pagination")))
