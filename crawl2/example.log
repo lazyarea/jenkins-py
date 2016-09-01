@@ -1,0 +1,1322 @@
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/url {"url": "http://192.168.11.102:18002/?site_id=&status=&sort=9", "sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element {"sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731", "value": "login_id", "using": "name"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element/{975cf0e9-e9ee-4fe9-b488-5f075b60e558}/value {"id": "{975cf0e9-e9ee-4fe9-b488-5f075b60e558}", "value": ["x", "y", "z"], "sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element {"sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731", "value": "password", "using": "name"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element/{b56aeaf1-4f88-4845-a120-83f61f229a37}/value {"id": "{b56aeaf1-4f88-4845-a120-83f61f229a37}", "value": ["x", "y", "z"], "sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element {"sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731", "value": "/html/body/div[1]/div/div/div/div/div[2]/form/div[3]/div/button", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element/{4e1347d3-63d5-4c87-ad84-5b397346de32}/click {"id": "{4e1347d3-63d5-4c87-ad84-5b397346de32}", "sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element {"sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731", "value": ".pagination", "using": "css selector"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element {"sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731", "value": "//*[@id=\"form-list-change\"]/select[3]", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element/{1f944816-898d-4776-b395-60b291ef41cb}/click {"id": "{1f944816-898d-4776-b395-60b291ef41cb}", "sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element {"sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731", "value": "//*[@id=\"form-list-change\"]/select[3]/option[6]", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element/{35aebf88-1627-48f5-8393-ee074cb0a7df}/click {"id": "{35aebf88-1627-48f5-8393-ee074cb0a7df}", "sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/element {"sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731", "value": ".pagination", "using": "css selector"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731/source {"sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:Watch out!
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:42572/hub/session/0d7ea986-adbe-4061-ad66-d9f11594f731 {"sessionId": "0d7ea986-adbe-4061-ad66-d9f11594f731"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/url {"sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "url": "http://192.168.11.102:18002/?site_id=&status=&sort=9"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element {"using": "name", "sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "value": "login_id"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element/{a8759f76-74ca-4ac1-a672-06233b39843c}/value {"sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "id": "{a8759f76-74ca-4ac1-a672-06233b39843c}", "value": ["x", "y", "z"]}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element {"using": "name", "sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "value": "password"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element/{5e2f6ac9-b86b-46e8-9ba4-b1c186563b33}/value {"sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "id": "{5e2f6ac9-b86b-46e8-9ba4-b1c186563b33}", "value": ["x", "y", "z"]}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element {"using": "xpath", "sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "value": "/html/body/div[1]/div/div/div/div/div[2]/form/div[3]/div/button"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element/{d2cbd0fa-d1aa-47d6-8bdf-650034d7a4e1}/click {"sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "id": "{d2cbd0fa-d1aa-47d6-8bdf-650034d7a4e1}"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element {"using": "css selector", "sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "value": ".pagination"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element {"using": "xpath", "sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "value": "//*[@id=\"form-list-change\"]/select[3]"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element/{a4163c64-a3d1-466a-929f-7483d9485ffb}/click {"sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "id": "{a4163c64-a3d1-466a-929f-7483d9485ffb}"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element {"using": "xpath", "sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "value": "//*[@id=\"form-list-change\"]/select[3]/option[6]"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element/{ef95840f-2660-4931-a704-993817aa098a}/click {"sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "id": "{ef95840f-2660-4931-a704-993817aa098a}"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/element {"using": "css selector", "sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89", "value": ".pagination"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89/source {"sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:Watch out!
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:52981/hub/session/13fc1afc-4057-4241-bbef-0bc974511d89 {"sessionId": "13fc1afc-4057-4241-bbef-0bc974511d89"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:[<table class="table table-condensed">
+<thead>
+<tr>
+<th>コード</th>
+<th>タイトル</th>
+<th>メモ</th>
+<th colspan="2">ステータス</th>
+<th>公開開始</th>
+<th>公開終了</th>
+<th>更新日時</th>
+<th>更新者</th>
+<th>編集</th>
+<th>公開</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<input class="data-form-id" type="hidden" value="78"/>
+<td>Form_78</td>
+<td>基本テンプレート_copy</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							-						</td>
+<td>-</td>
+<td>-</td>
+<td>2016-08-26 17:31</td>
+<td>山崎 昇</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="78">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="150"/>
+<td>texf_n</td>
+<td>TISエグゼクティブフォーラム2016　ご招待者様専用ページ</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							-						</td>
+<td>-</td>
+<td>-</td>
+<td>2016-08-30 12:54</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="150">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="151"/>
+<td>texf_t</td>
+<td>TISエグゼクティブフォーラム2016　ご招待者様専用ページ</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							-						</td>
+<td>-</td>
+<td>-</td>
+<td>2016-08-30 12:53</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="151">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="66"/>
+<td>test2</td>
+<td>サイズ　本番　test</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							非公開						</td>
+<td>2016-06-29 12:17</td>
+<td>2016-06-29 12:19</td>
+<td>2016-09-01 10:06</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="66">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="62"/>
+<td>ir</td>
+<td>
+<div>IRに関するお問い合わせ</div>
+<div>
+<a href="https://www.tis.co.jp/contact/ir/" target="_blank">
+										https://www.tis.co.jp/contact/ir/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="62">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="63"/>
+<td>privacy</td>
+<td>
+<div>個人情報、及び特定個人情報その他のお問い合わせ</div>
+<div>
+<a href="https://www.tis.co.jp/contact/privacy/" target="_blank">
+										https://www.tis.co.jp/contact/privacy/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="63">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="64"/>
+<td>common</td>
+<td>
+<div>一般のお問い合わせ</div>
+<div>
+<a href="https://www.tis.co.jp/contact/common/" target="_blank">
+										https://www.tis.co.jp/contact/common/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="64">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="65"/>
+<td>news</td>
+<td>
+<div>ニュースに関するお問い合わせ</div>
+<div>
+<a href="https://www.tis.co.jp/contact/news/" target="_blank">
+										https://www.tis.co.jp/contact/news/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="65">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="68"/>
+<td>Policy_20160201</td>
+<td>
+<div>当セミナーの個人情報のお取り扱いについて</div>
+<div>
+<a href="https://www.tis.co.jp/contact/Policy_20160201/" target="_blank">
+										https://www.tis.co.jp/contact/Policy_20160201/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="68">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="69"/>
+<td>01_01</td>
+<td>
+<div>お問い合わせ</div>
+<div>
+<a href="https://www.tis.jp/inq/01_01/" target="_blank">
+										https://www.tis.jp/inq/01_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="69">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="70"/>
+<td>02_01</td>
+<td>
+<div>資料請求</div>
+<div>
+<a href="https://www.tis.jp/inq/02_01/" target="_blank">
+										https://www.tis.jp/inq/02_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="70">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="71"/>
+<td>03_01</td>
+<td>
+<div>ダウンロード</div>
+<div>
+<a href="https://www.tis.jp/inq/03_01/" target="_blank">
+										https://www.tis.jp/inq/03_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="71">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="72"/>
+<td>05_01</td>
+<td>
+<div>勉強会資料ダウンロード</div>
+<div>
+<a href="https://www.tis.jp/inq/05_01/" target="_blank">
+										https://www.tis.jp/inq/05_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="72">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="73"/>
+<td>06_01</td>
+<td>
+<div>鑑定評価書作成支援システム（地価公示版・地価調査版）</div>
+<div>
+<a href="https://www.tis.jp/inq/06_01/" target="_blank">
+										https://www.tis.jp/inq/06_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="73">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="74"/>
+<td>07_01</td>
+<td>
+<div> ホワイトペーパーダウンロード</div>
+<div>
+<a href="https://www.tis.jp/inq/07_01/" target="_blank">
+										https://www.tis.jp/inq/07_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="74">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="76"/>
+<td>08_01</td>
+<td>
+<div>無料Web診断お申し込み</div>
+<div>
+<a href="https://www.tis.jp/inq/08_01/" target="_blank">
+										https://www.tis.jp/inq/08_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="76">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="77"/>
+<td>seminar_report02</td>
+<td>
+<div>Customer Success Stories Forum 資料ダウンロード</div>
+<div>
+<a href="https://www.tis.co.jp/contact/seminar_report02/" target="_blank">
+										https://www.tis.co.jp/contact/seminar_report02/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="77">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="79"/>
+<td>bcp01</td>
+<td>
+<div>BCP簡易アセスメントサービスお問合せ</div>
+<div>
+<a href="https://www.tis.jp/inq/bcp01/" target="_blank">
+										https://www.tis.jp/inq/bcp01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="79">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="80"/>
+<td>bcp02</td>
+<td>
+<div>BCP簡易アセスメントサービス資料請求</div>
+<div>
+<a href="https://www.tis.jp/inq/bcp02/" target="_blank">
+										https://www.tis.jp/inq/bcp02/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="80">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="81"/>
+<td>bo</td>
+<td>
+<div>「グローバル競争時代における経営基盤の再構築」 セミナー講演資料送付</div>
+<div>
+<a href="https://www.tis.jp/inq/bo/" target="_blank">
+										https://www.tis.jp/inq/bo/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="81">設定</button>
+</td>
+</tr>
+</tbody>
+</table>]
+WARNING:root:[<table class="table table-condensed">
+<thead>
+<tr>
+<th>コード</th>
+<th>タイトル</th>
+<th>メモ</th>
+<th colspan="2">ステータス</th>
+<th>公開開始</th>
+<th>公開終了</th>
+<th>更新日時</th>
+<th>更新者</th>
+<th>編集</th>
+<th>公開</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<input class="data-form-id" type="hidden" value="78"/>
+<td>Form_78</td>
+<td>基本テンプレート_copy</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							-						</td>
+<td>-</td>
+<td>-</td>
+<td>2016-08-26 17:31</td>
+<td>山崎 昇</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="78">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="150"/>
+<td>texf_n</td>
+<td>TISエグゼクティブフォーラム2016　ご招待者様専用ページ</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							-						</td>
+<td>-</td>
+<td>-</td>
+<td>2016-08-30 12:54</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="150">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="151"/>
+<td>texf_t</td>
+<td>TISエグゼクティブフォーラム2016　ご招待者様専用ページ</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							-						</td>
+<td>-</td>
+<td>-</td>
+<td>2016-08-30 12:53</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="151">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="66"/>
+<td>test2</td>
+<td>サイズ　本番　test</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							非公開						</td>
+<td>2016-06-29 12:17</td>
+<td>2016-06-29 12:19</td>
+<td>2016-09-01 10:06</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="66">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="62"/>
+<td>ir</td>
+<td>
+<div>IRに関するお問い合わせ</div>
+<div>
+<a href="https://www.tis.co.jp/contact/ir/" target="_blank">
+										https://www.tis.co.jp/contact/ir/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="62">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="63"/>
+<td>privacy</td>
+<td>
+<div>個人情報、及び特定個人情報その他のお問い合わせ</div>
+<div>
+<a href="https://www.tis.co.jp/contact/privacy/" target="_blank">
+										https://www.tis.co.jp/contact/privacy/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="63">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="64"/>
+<td>common</td>
+<td>
+<div>一般のお問い合わせ</div>
+<div>
+<a href="https://www.tis.co.jp/contact/common/" target="_blank">
+										https://www.tis.co.jp/contact/common/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="64">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="65"/>
+<td>news</td>
+<td>
+<div>ニュースに関するお問い合わせ</div>
+<div>
+<a href="https://www.tis.co.jp/contact/news/" target="_blank">
+										https://www.tis.co.jp/contact/news/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="65">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="68"/>
+<td>Policy_20160201</td>
+<td>
+<div>当セミナーの個人情報のお取り扱いについて</div>
+<div>
+<a href="https://www.tis.co.jp/contact/Policy_20160201/" target="_blank">
+										https://www.tis.co.jp/contact/Policy_20160201/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="68">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="69"/>
+<td>01_01</td>
+<td>
+<div>お問い合わせ</div>
+<div>
+<a href="https://www.tis.jp/inq/01_01/" target="_blank">
+										https://www.tis.jp/inq/01_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="69">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="70"/>
+<td>02_01</td>
+<td>
+<div>資料請求</div>
+<div>
+<a href="https://www.tis.jp/inq/02_01/" target="_blank">
+										https://www.tis.jp/inq/02_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="70">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="71"/>
+<td>03_01</td>
+<td>
+<div>ダウンロード</div>
+<div>
+<a href="https://www.tis.jp/inq/03_01/" target="_blank">
+										https://www.tis.jp/inq/03_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="71">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="72"/>
+<td>05_01</td>
+<td>
+<div>勉強会資料ダウンロード</div>
+<div>
+<a href="https://www.tis.jp/inq/05_01/" target="_blank">
+										https://www.tis.jp/inq/05_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="72">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="73"/>
+<td>06_01</td>
+<td>
+<div>鑑定評価書作成支援システム（地価公示版・地価調査版）</div>
+<div>
+<a href="https://www.tis.jp/inq/06_01/" target="_blank">
+										https://www.tis.jp/inq/06_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="73">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="74"/>
+<td>07_01</td>
+<td>
+<div> ホワイトペーパーダウンロード</div>
+<div>
+<a href="https://www.tis.jp/inq/07_01/" target="_blank">
+										https://www.tis.jp/inq/07_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="74">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="76"/>
+<td>08_01</td>
+<td>
+<div>無料Web診断お申し込み</div>
+<div>
+<a href="https://www.tis.jp/inq/08_01/" target="_blank">
+										https://www.tis.jp/inq/08_01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="76">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="77"/>
+<td>seminar_report02</td>
+<td>
+<div>Customer Success Stories Forum 資料ダウンロード</div>
+<div>
+<a href="https://www.tis.co.jp/contact/seminar_report02/" target="_blank">
+										https://www.tis.co.jp/contact/seminar_report02/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="77">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="79"/>
+<td>bcp01</td>
+<td>
+<div>BCP簡易アセスメントサービスお問合せ</div>
+<div>
+<a href="https://www.tis.jp/inq/bcp01/" target="_blank">
+										https://www.tis.jp/inq/bcp01/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="79">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="80"/>
+<td>bcp02</td>
+<td>
+<div>BCP簡易アセスメントサービス資料請求</div>
+<div>
+<a href="https://www.tis.jp/inq/bcp02/" target="_blank">
+										https://www.tis.jp/inq/bcp02/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="80">設定</button>
+</td>
+</tr>
+<tr>
+<input class="data-form-id" type="hidden" value="81"/>
+<td>bo</td>
+<td>
+<div>「グローバル競争時代における経営基盤の再構築」 セミナー講演資料送付</div>
+<div>
+<a href="https://www.tis.jp/inq/bo/" target="_blank">
+										https://www.tis.jp/inq/bo/
+									</a>
+</div>
+</td>
+<td><button class="btn btn-default btn-memo btn-sm" title="" type="button">メモ</button></td>
+<td>編集中</td>
+<td>
+							公開						</td>
+<td>2016-09-01 09:20</td>
+<td>-</td>
+<td>2016-09-01 09:20</td>
+<td>xyz 管理者</td>
+<td>
+<select class="form-control input-sm edit-btn">
+<option></option>
+<option value="1">編集</option>
+<option value="2">コピーして新規作成</option>
+<option value="3">コピーしてテンプレートにする</option>
+<option value="4">削除</option>
+</select>
+</td>
+<td>
+<button class="btn btn-default publish-btn" data-target="#blockEditModal" data-toggle="modal" type="button" value="81">設定</button>
+</td>
+</tr>
+</tbody>
+</table>]

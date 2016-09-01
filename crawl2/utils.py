@@ -2,6 +2,10 @@
 
 import csv
 import json
+#from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 def load_csv(path, delim=",", quote='"'):
@@ -30,3 +34,8 @@ def write_file(path, data):
             f.write(str(i))
         f.close()
 
+def wait_until(driver, sec=3, css_selector=".pagination"):
+    wait = WebDriverWait(driver, sec)
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, css_selector)))
+    print("wait:" )
+    print(sec)
