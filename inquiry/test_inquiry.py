@@ -32,8 +32,8 @@ class TestInquiry(unittest.TestCase):
         except:
             print("timeout")
 
-        self.browser.find_element_by_name('login_id').send_keys('xyz')
-        self.browser.find_element_by_name('password').send_keys('xyz')
+        self.browser.find_element_by_name('login_id').send_keys('account')
+        self.browser.find_element_by_name('password').send_keys('password')
         self.browser.find_element_by_xpath('/html/body/div[1]/div/div/div/div/div[2]/form/div[3]/div/button').click()
 
         html = self.browser.page_source
