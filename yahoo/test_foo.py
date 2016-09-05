@@ -25,7 +25,7 @@ class SimpleTest(unittest.TestCase):
 
 
     def test_login_out(self):
-        email   = "sudo_0826"
+        email   = "account"
         passwd  = "wilkinson"
         login.login(self.driver, self.url, email, passwd)
         time.sleep(5)
