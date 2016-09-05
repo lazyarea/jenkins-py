@@ -34,8 +34,7 @@ def write_file(path, data):
             f.write(str(i))
         f.close()
 
-def wait_until(driver, sec=3, css_selector=".pagination"):
-    wait = WebDriverWait(driver, sec)
-    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, css_selector)))
-    print("wait:" )
-    print(sec)
+def take_shot(driver, name='', dir='screenshots/', ext='.png'):
+        path = dir + name + ext
+        driver.save_screenshot(path)
+
