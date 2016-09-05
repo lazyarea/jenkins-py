@@ -14,7 +14,7 @@ class TestInquiry(unittest.TestCase):
 
     def setUp(self):
         self.wait = 10 # seconds
-        self.url = 'http://192.168.11.102:18002/login'
+        self.url = 'http://192.168.100.103/login'
         self.browser = webdriver.Chrome(os.getcwd() + '/lib/chromedriver')
         # self.browser.manage().timeouts().implicitlyWait(self.wait, TimeUnit.SECONDS);
         pass
