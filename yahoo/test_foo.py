@@ -15,7 +15,8 @@ class SimpleTest(unittest.TestCase):
         baseurl = 'http://yahoo.co.jp'
         self.wait = 10 # seconds
         self.url = baseurl
-        self.driver = webdriver.Chrome('../lib/chromedriver')
+        # self.driver = webdriver.Chrome('../lib/chromedriver')
+        self.driver = webdriver.Firefox()
         # self.driver.manage().timeouts().implicitlyWait(self.wait,
         # TimeUnit.SECONDS);
 
@@ -25,7 +26,7 @@ class SimpleTest(unittest.TestCase):
 
 
     def test_login_out(self):
-        email   = "account"
+        email   = "sudo_0826"
         passwd  = "wilkinson"
         login.login(self.driver, self.url, email, passwd)
         time.sleep(5)
